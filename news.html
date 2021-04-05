@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Новости</title>
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">Новости</div>
+
+            <nav class="dws-menu" id="nav">
+                <a class="nav__link" href="index.html" target="_blank">Главная</a>
+                <a class="nav__link" href="rules.html" target="_blank">Правила</a>
+                <a class="nav__link" href="news.html" target="_blank">Новости</a>
+                </a>
+            </nav>
+
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Меню</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<div class="page">
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h2 class="intro__suptitle">ShadowLands News</h2>
+
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /.intro -->
+
+    <section class="section" id="works">
+        <div class="container">
+
+            <div class="section__header">
+                <h2 class="section__title">Новости</h2>
+            </div>
+          
+        <div class="demo">
+          <div class="container"> 
+              <div class="row">
+                  <div class="col-md-12">
+                      <div id="news-slider2" class="owl-carousel">
+                          <div class="post-slide2">
+                              <div class="post-img">
+                                  <a href="#"><img src="assets/images/blog/obnova.jpg" alt=""></a>
+                              </div>
+                              <div class="post-content">
+                                  <h3 class="post-title"><a href="#">Обновление V1.6</a></h3>
+                                    <p class="post-description"><b>• Добавлена категория "Города"</b></p>
+                                    <p class="post-description"><b>• Исправлены благи</b></p>
+                                    <p class="post-description"><b>• Купили печенек к чаю ʕ ᵔᴥᵔ ʔ</b></p>
+                                    <p class="post-description"> <b>• Добавлена категория "Главная" - Быстрое перемещение на главную страницу.</b></p>
+                                    <p class="post-description"><b>• Обновили вкладку "Новости" - перекидует на новую страницу + новое оформление.</b></p>
+                                    <p class="post-description"><b>• Исправил баги</b></p>
+                                    <p class="post-description"> <b>• При входе добавил окно "Обновление" и конфети.</b></p>
+                                    <p class="post-description"> <b>• Исправил баги в текстах.</b></p>
+                                    <p class="post-description"> <b>• Убран из списков город "Neo City" - новый Мэр.</b></p>
+                                  <ul class="post-bar">
+                                      <li><i class="fa fa-calendar"></i> 21 Февраля - 01 Марта 2021</li>
+                                  </ul>
+                              </div>
+                          </div>
+       
+                          <div class="post-slide2">
+                              <div class="post-img">
+                                  <a href="https://youtu.be/f-nCiSmnIws"><img src="assets/images/blog/1.jpg" alt=""></a>
+                              </div>
+                              <div class="post-content">
+                                  <h3 class="post-title"><a href="#">Радио "SL Fm"</a></h3>
+                                  <p class="post-description">
+                                    <p class="post-description"><b>• dogushka и Gumball_great создали Радио "Sl Fm"! Там уже прошли первые подкасты</b></p>
+                                  </p>
+                                  <ul class="post-bar">
+                                      <li><i class="fa fa-calendar"></i>21 Февраля 2021</li>
+                                  </ul>
+                              </div>
+                          </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/confetti.js-master/confetti.js"></script>
+<script>
+  const startit = () => {
+    setTimeout(function () {
+      console.log("start");
+      confetti.start();
+    }, 1000);
+  };
+
+  const stopit = () => {
+    setTimeout(function () {
+      console.log("stop");
+      confetti.stop();
+    }, 6000);
+  };
+
+  startit();
+  stopit();
+</script>
+
+    <!---Разметка для модального окна---->
+<div id="rad" class="iw-modal">
+    <div class="iw-modal-wrapper">
+    <div class="iw-CSS-modal-inner">
+    <div class="iw-modal-header">
+    <h3 class="iw-modal-title">Радио "SL Fm"</h3>
+    <a href="#close" title="Закрыть" class="iw-close">×</a>
+    </div>
+    <div class="iw-modal-text">
+        <p class="blog-post_text"><b>• dogushka и Gumball_great создали Радио "Sl Fm"! Там уже прошли первые подкасты<a href="https://youtu.be/f-nCiSmnIws">(клик)</a></b></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!---end.Разметка для модального окна---->
+
+    <!---Разметка для модального окна---->
+<div id="soon" class="iw-modal">
+    <div class="iw-modal-wrapper">
+    <div class="iw-CSS-modal-inner">
+    <div class="iw-modal-header">
+    <h3 class="iw-modal-title">Чшшшшшшшш</h3>
+    <a href="#close" title="Закрыть" class="iw-close">×</a>
+    </div>
+    <div class="iw-modal-text">
+        <p class="blog-post_text"><b>• Ожидай...</b></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!---end.Разметка для модального окна---->
+
+
+
+</body>
+</html>
